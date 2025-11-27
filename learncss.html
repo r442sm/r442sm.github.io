@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>CSSを学ぼう！</title>
+      <link rel="icon" href="image/favicon.ico">
+    <style>
+      body {
+        background-image:url("https://github.com/r442sm/r442sm.github.io/blob/main/image/Screenshot%202025-11-25%2021.14.05.png?raw=true");
+      }
+      .h1center {
+        height: 100px;
+        line-height: 90px;
+        text-align: center;
+        color: #FFFFFF;
+        border: 4px solid #FFFFFF;
+        font-size: 58px;
+        margin-bottom: 23px;
+        margin-left: 49px;
+        margin-right: 49px;
+      }
+      .divnuritsubushi {
+        border-radius: 4px;
+        background-color: #FFFFFF; 
+        margin-bottom: 40px;
+        margin-left: 19px;
+        margin-right: 19px;
+        margin-bottom: 30px;
+      }
+      .htagu {
+       color: #2b2b2b; 
+      }
+      .fonto {
+        font-size: 20px;
+      }
+      button {
+      background-color: #00bfff;
+      border: none;
+      border-radius:10px ;
+      padding: 10px 20px;
+      color: #FFFFFF;
+      margin-left: 30px;
+      }
+      button:hover {
+  background-color: #016d91;
+      }
+      .code {
+        background-color: #343536;
+        color: #FFFFFF;c
+      }
+      input {
+          background-color: #0062ff;
+          }
+      </style>
+    <header>
+    <h1 class="h1center">CSSを学ぼう！</h1>
+      <div class="divnuritsubushi"><h3 class"htagu">&nbsp;こんにちは！Scratchでr442tw12として活動しているr442tw12です！</h3>
+       <p>みなさんはCSSに対してどのようなイメージを持っているでしょうか？</p>
+        <p>難しい... 一度挫折した経験がある...  という人も多いかと思います。</p>
+        <p>簡単なページですが、ぜひ最後まで読んでみてください！</p>
+        <h4>目次</h4>
+        <button onclick="loction.href='#toha'">CSSとは？</button>
+         <button onclick="loction.href='#kobun'">基本の構文</button>
+                 <button onclick="loction.href='#kaku'">実際に書いてみる</button>
+        <h3 id="#toha">CSSとは？</h3>
+        <p>CSSとは、Webページを構成するHTMLに見た目やアニメーションを加えたりする<b>スタイルシート言語</b>です。</p>
+        <h3 id="#kobun">基本の構文</h3>
+        <p>CSSにおける基本的な構文はこちらです。</p>
+        <div class="code">
+        <pre><code>
+          セレクタ {
+          プロパティ: 数値;
+          }
+        </code></pre>
+         </div>
+        単語の意味
+        <p>セレクタ...CSSを適用させたい要素（buttonタグやh1タグなど）</p>
+        <p>プロパティ...適用させたいデザイン、アニメーション</p>
+        <p>数値...適用させるプロパティの数値（大きさや色など）</p>
+        <p>基本的には、この構文を覚えておくと簡単にCSSを書くことができます！</p>
+        <h3 id="#kaku">実際に書いてみる</h3>
+        <p><b>基本の構文</b>で覚えたことを思い出して実際に書いてみましょう！</p>
+        <p>今回は例として、inputタグを使ってみます！</p>
+        <div class="code">
+        <pre><code>
+          input {
+          background-color: #0062ff;
+          }
+        </code></pre>
+         </div>
+        <p>このコードを書いて実行してみると、このようになります。</p>
+        <div class="code">
+        <pre><code>
+         <input type="text">
+         </code></pre>
+         </div>
+      </div>
+      </header>
+  </body>
+</html>

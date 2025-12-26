@@ -2,6 +2,7 @@
 <html>
   <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <meta charset="UTF-8">
     <title>school uniform button</title>
     <style>
@@ -37,9 +38,32 @@
         border-spacing: 0px;
         border-bottom: 5px double #2d2e2e;
       }
+      button {
+      background-color: #6a6a6b;
+      margin-right: 3px;
+      border: none;
+      border-radius:10px ;
+      padding: 10px 20px;
+      color: #FFFFFF;
+      }
+      button:hover {
+  background-color: #3a3a3b;
+      }
+      .header_menu {
+        background-color: #4a4a4a;
+        padding: 3px 20px;
+        display: flex;
+      }
       </style>
   </head>
   <body>
+    <header>
+      <div class="header_menu">
+      <button onclick="window.print();">印刷する</button>
+        <button onclick="location.href=''">使い方を見る</button>
+        <button onclick="location.href='https://scratch.mit.edu/users/r442tw12'">このアプリの制作者</button>
+        </div>
+    </header>
     <div class="div_box">
 <img src="https://github.com/r442sm/r442sm.github.io/blob/main/image/gakuran_Button.png?raw=true" class="img_size" width="560" height="90.0">
       <div class="div_gakuran_button">
